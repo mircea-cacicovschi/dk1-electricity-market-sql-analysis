@@ -40,14 +40,18 @@ Raw CSV files are intentionally excluded from version control and can be regener
 ---
 
 ## Repository structure
+
+~~~
+.
 ├── data/
-│ ├── metadata/ # Station lists and auxiliary metadata
-│ └── raw/ # Raw CSV outputs (not tracked in git)
+│   ├── metadata/        # Station lists and auxiliary metadata
+│   └── raw/             # Raw CSV outputs (not tracked in git)
 ├── docs/
-│ └── schema_erd.png # Database schema diagram
-├── scripts/ # Python data collection scripts
-├── sql/ # Schema and analysis SQL files
+│   └── schema_erd.png   # Database schema diagram
+├── scripts/             # Python data collection scripts
+├── sql/                 # Schema and analysis SQL files
 └── README.md
+~~~
 
 ---
 
