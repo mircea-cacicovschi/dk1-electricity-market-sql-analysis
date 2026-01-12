@@ -102,6 +102,8 @@ Extreme electricity prices in DK1 typically occur during periods of low wind ava
 
 ## Reproducibility
 
+Data flow: Python scripts collect and preprocess raw data, export CSV files, which are loaded into PostgreSQL and analyzed using SQL queries.
+
 All data used in this project can be regenerated:
 
 1. Set required API tokens as environment variables:
